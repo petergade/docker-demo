@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 docker build -t demo-image .
 
 docker run -d -p 5001:5000 --name demoapp1 demo-image

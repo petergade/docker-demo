@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 docker stop demoapp1
 docker rm demoapp1
 docker stop demoapp2

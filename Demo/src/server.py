@@ -1,10 +1,11 @@
 from flask import Flask
+from datetime import datetime
 server = Flask(__name__)
 
 
 @server.route('/')
 def ping():
-    return 'Hello world!'
+    return datetime.now().isoformat()
 
 
 if __name__ == '__main__':
